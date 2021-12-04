@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "A web application that allows users to write and save notes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Holt",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorulfr/note-taker.git"
+  },
+  "keywords": [
+    "notes",
+    "express",
+    "backend"
+  ],
+  "bugs": {
+    "url": "https://github.com/Thorulfr/note-taker/issues"
+  },
+  "homepage": "https://github.com/Thorulfr/note-taker#readme"
+}
