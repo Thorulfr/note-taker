@@ -1,6 +1,5 @@
 // Imports
 const express = require('express');
-const routes = require('./routes');
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
@@ -14,9 +13,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Enable and prefix routes
-app.use(routes);
-app.use('./api', apiRoutes);
-app.use('./', htmlRoutes);
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 // Boot server
 app.listen(PORT, () => {
