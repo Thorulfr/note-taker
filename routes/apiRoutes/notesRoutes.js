@@ -1,6 +1,6 @@
 // Imports
 const router = require('express').Router();
-const notes = require('../../data/db.json');
+const notes = require('../../data/db');
 const { createNewNote } = require('../../lib/notes');
 
 // Get all notes
