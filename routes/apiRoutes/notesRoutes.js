@@ -1,7 +1,7 @@
 // Imports
 const router = require('express').Router();
 const notes = require('../../data/db');
-const { createNewNote } = require('../../lib/notes');
+const { createNewNote, deleteNote } = require('../../lib/notes');
 
 // Get all notes
 router.get('/', (req, res) => {
@@ -16,6 +16,12 @@ router.post('/', (req, res) => {
     // Add note to JSON file
     const note = createNewNote(req.body, notes);
     res.json(note);
+});
+
+// Delete a note
+router.delete('/:id', (req, res) => {
+    deleteNote(req.params, notes);
+    res.json();
 });
 
 module.exports = router;
