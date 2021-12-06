@@ -39,7 +39,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Heroku Deployment
 
-<https://thorulfr.github.io/note-taker/>
+<https://salty-refuge-71424.herokuapp.com/>
 
 ## Screenshots
 
