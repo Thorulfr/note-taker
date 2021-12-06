@@ -37,13 +37,19 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 -   JavaScript
 -   Express.js
 
-## Website
+## Heroku Deployment
 
 <https://thorulfr.github.io/note-taker/>
 
-## Demonstration
+## Screenshots
 
-[See this app in action.](https://)
+Landing page:
+
+![Landing-Page Screenshot](./assets/images/readme-screenshot-1.png)
+
+Notes page:
+
+![Notes Page Screenshot](./assets/images/readme-screenshot-2.png)
 
 ## Credits
 
